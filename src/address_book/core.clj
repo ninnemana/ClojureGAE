@@ -31,8 +31,8 @@
         [:li (link-to "/admin/new" "Create new post (Admin only)")])]
      [:h3 "External Links"]
      [:ul
-      [:li (link-to "http://compojureongae.posterous.com/" "Blog")]
-      [:li (link-to "http://github.com/christianberg/compojureongae" "Source Code")]]]))
+      [:li (link-to "http://twitter.com/ninnemana" "Twitter")]
+      [:li (link-to "http://github.com/ninnemana/ClojureGAE" "Source Code")]]]))
 
 (defn google-analytics [code]
   "Returns the script tag for injecting Google Analytics site visitor tracking."
